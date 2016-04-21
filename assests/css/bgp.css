@@ -1,0 +1,19 @@
+html {
+	background-color: #000000;
+}
+
+head > title {
+	color: #FFFFFF;
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.content
+{
+	background-color: blue;
+	left: calc(15%);
+}
+
