@@ -11,9 +11,38 @@ body {
 	color: #FFFFFF;
 }
 
-.content
+.pageHead {
+	background-color: green;
+}
+
+.pageBody {
+	height: calc(100%);
+}
+
+.title
+{
+	background-color: magenta;
+}
+
+.hub
 {
 	background-color: blue;
+	height:  calc(100%);
 	left: calc(15%);
+}
+
+.title-block {
+	background-color: grey;
+	height:  calc(100%);
+}
+
+.content-block {
+	background-color: orange;
+	height:  calc(100%);
+}
+
+.img-block
+{
+	background-color: red;
 }
 
