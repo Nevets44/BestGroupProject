@@ -104,3 +104,7 @@ body {
 	max-width: calc(100%);
 }
 
+.img-block > img {
+	padding-left: calc(7.5%);
+}
+
