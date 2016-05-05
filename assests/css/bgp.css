@@ -11,17 +11,42 @@ body {
 	color: #FFFFFF;
 }
 
+.nav-block {
+	display: inline-block;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+
+.nav-block > nav {
+	background-color: pink;
+	display: inline-block;
+	position: relative;
+}
+
+/*.nav-block > nav > span {
+	display: inline-block;
+	height: calc(100%);
+	padding: 5px;
+	width: calc(19%);
+}
+
+.nav-block a {
+	border-color: #FFCC00;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	color: #FFCC00;
+	left: calc(20%);
+	position: relative;
+}*/
+
 .pageHead {
 	background-color: green;
 }
 
 .pageBody {
 	height: calc(100%);
-}
-
-.title
-{
-	background-color: magenta;
 }
 
 .hub
@@ -33,7 +58,17 @@ body {
 
 .title-block {
 	background-color: grey;
-	height:  calc(100%);
+	/*height:  calc(100%); Causing div to not expand past the screen size*/
+}
+
+.title-block > h1 {
+	margin: 0px;
+	text-align: center;
+}
+
+.title-block > p {
+	margin: 0px;
+	padding: 60px 20px 20px 20px;
 }
 
 .content-block {
@@ -41,8 +76,31 @@ body {
 	height:  calc(100%);
 }
 
+.topic-block {
+	background-color: yellow;
+	float: right;
+	height: calc(100%);
+}
+
+.topic-block > .content {
+	height: calc(100%);
+	margin: 0px;
+}
+
+.title
+{
+	background-color: magenta;
+}
+
+.content
+{
+	border: solid 2px blue;
+}
+
+
 .img-block
 {
 	background-color: red;
+	max-width: calc(100%);
 }
 
