@@ -63,7 +63,6 @@ body {
 
 .title-block > h1 {
 	margin: 0px;
-	text-align: center;
 }
 
 .title-block > p {
@@ -97,6 +96,15 @@ body {
 	border: solid 2px blue;
 }
 
+.horizontal-block
+{
+	border: solid 2px blue;
+	padding: 10px;
+}
+
+.horizontal-block > div > p {
+	margin: 0px;
+}
 
 .img-block
 {
@@ -105,6 +113,10 @@ body {
 }
 
 .img-block > img {
-	padding-left: calc(7.5%);
+	/*padding-left: calc(7.5%);*/
+}
+
+.horizontal-block > .img-block > img {
+	max-width: calc(100%);
 }
 
