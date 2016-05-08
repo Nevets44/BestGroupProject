@@ -4,7 +4,7 @@
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="../css/nav.css">
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="script.js"></script>
    <title>Rochester</title>
@@ -13,53 +13,53 @@
 
 <div class="nav-bar">
 <ul>
-   <li class="dropdown"><a href='../eats/eats-landing.html' class="dropItem"><span>Eat</span></a>
+   <li class="dropdown"><a class="dropItem" href='../eats/eats-landing.php'><span>Eat</span></a>
       <div class="dropdown-content">
-         <a href='../eats/bars.html'>Bars</a>
-         <a href='../eats/ethnic.html'>Ethnic</a>
-         <a href='../eats/famous.html'>Famous</a>
-         <a href='../eats/fast.html'>Fast</a>
-         <a href='../eats/late.html'>Late</a>
+         <a href='../eats/bars.php'>Bars</a>
+         <a href='../eats/ethnic.php'>Ethnic</a>
+         <a href='../eats/famous.php'>Famous</a>
+         <a href='../eats/fast.php'>Fast</a>
+         <a href='../eats/late.php'>Late</a>
       </div>
    </li>
-   <li><a href='../shops/shops-landing.html'><span>Shop</span></a>
+   <li class="dropdown"><a class="dropItem" href='../shops/shops-landing.php'><span>Shop</span></a>
    		<div class="dropdown-content">
-	        <a href='../shops/malls.html'>Malls</a>
-	        <a href='../shops/thrift.html'>Thrift</a>
+	        <a href='../shops/malls.php'>Malls</a>
+	        <a href='../shops/thrift.php'>Thrift</a>
       	</div>
    </li>
-   <li><a href='../friends/friends-landing.html'><span>Friends</span></a>
+   <li class="dropdown"><a class="dropItem" href='../friends/friends-landing.php'><span>Friends</span></a>
    		<div class="dropdown-content">
-	        <a href='../friends/free.html'>Free</a>
-	        <a href='../friends/pay-to-play.html'>Pay to Play</a>
+	        <a href='../friends/free.php'>Free</a>
+	        <a href='../friends/pay-to-play.php'>Pay to Play</a>
       	</div>
    </li>
-   <li><a href='../entertainment/entertainment-landing.html'><span>Entertainment</span></a>
+   <li class="dropdown"><a class="dropItem" href='../entertainment/entertainment-landing.php'><span>Entertainment</span></a>
    		<div class="dropdown-content">
-	        <a href='../entertainment/campus-events.html'>Campus</a>
-	        <a href='../entertainment/concerts.html'>Concerts</a>
-	        <a href='../entertainment/movie-theatres.html'>Movies</a>
-	        <a href='../entertainment/theatres.html'>Theatres</a>
+	        <a href='../entertainment/campus-events.php'>Campus</a>
+	        <a href='../entertainment/concerts.php'>Concerts</a>
+	        <a href='../entertainment/movie-theatres.php'>Movies</a>
+	        <a href='../entertainment/theatres.php'>Theatres</a>
       	</div>
    </li>
-   <li><a href='../go/go-landing.html'><span>Go</span></a>
+   <li class="dropdown"><a class="dropItem" href='../go/go-landing.php'><span>Go</span></a>
    		<div class="dropdown-content">
-	        <a href='../go/arts.html'>Arts</a>
-	        <a href='../go/festivals.html'>Festivals</a>
-	        <a href='../go/recreation.html'>Recreation</a>
+	        <a href='../go/arts.php'>Arts</a>
+	        <a href='../go/festivals.php'>Festivals</a>
+	        <a href='../go/recreation.php'>Recreation</a>
       	</div>
    </li>
-   <li><a href='../socialize/socialize-landing.html'><span>Socialize</span></a>
+   <li class="dropdown"><a class="dropItem" href='../socialize/socialize-landing.php'><span>Socialize</span></a>
    		<div class="dropdown-content">
-	        <a href='../socialize/houses.html'>Houses</a>
-	        <a href='../socialize/nightlife.html'>Nightlife</a>
-	        <a href='../socialize/rit-clubs.html'>RIT Clubs</a>
+	        <a href='../socialize/houses.php'>Houses</a>
+	        <a href='../socialize/nightlife.php'>Nightlife</a>
+	        <a href='../socialize/rit-clubs.php'>RIT Clubs</a>
       	</div>
    </li>
-   <li><a href='../history.html'><span>Rochester</span></a></li>
-   <li class="dropdown"><a href='../about-us.html' class="dropItem"><span>Us</span></a>
+   <li><a href='../us/history.php'><span>Rochester</span></a></li>
+   <li class="dropdown"><a class="dropItem" href='../about-us.php'><span>Us</span></a>
       <div class="dropdown-content">
-         <a href='../blog.php'>Blog</a>
+         <a href='../us/blog.php'>Blog</a>
       </div>
    </li>
 </ul>
